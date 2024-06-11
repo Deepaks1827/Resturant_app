@@ -9,10 +9,10 @@ export default function Carousall() {
     <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" style={{objectFit:"contain !important"}}>
   <div className="carousel-inner" id="carousel">
   <div className="carousel-caption" style={{zIndex:10}}>
-  <form className='d-flex'>
+  <div className='d-flex justify-content-center'>
   <input className="form-control me-2 " type="search" placeholder='Search' aria-label="Search"/>
-  <button className="btn btn-outline-success text-white bg-success" type="submit">Search</button>
-  </form>
+  <button className="btn btn-outline-success text-white bg-success" type="submit">Search</button> 
+  </div>
 
   </div>
 
